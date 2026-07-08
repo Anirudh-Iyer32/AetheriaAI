@@ -144,9 +144,6 @@ The complete machine learning pipeline consists of:
 
 #  Model Performance
 
-| Model | Accuracy | Precision | Recall | F1 Score |
-| **LightGBM (Champion Model)** | **96.XX%** | **96.XX%** | **96.XX%** | **96.XX%** |
-
 The LightGBM model was selected as the champion model after extensive experimentation and hyperparameter optimization due to its superior predictive performance across all evaluation metrics.
 
 ---
