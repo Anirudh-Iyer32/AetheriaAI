@@ -1,0 +1,13 @@
+pandas 
+numpy 
+seaborn
+matplotlib
+scikit-learn
+joblib
+imblearn
+ipykernel
+boto3
+xgboost
+lightgbm==4.3.0
+mlflow
+sagemaker

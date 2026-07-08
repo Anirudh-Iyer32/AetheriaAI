@@ -1,0 +1,26 @@
+artifact_path: file:///Users/anirudhiyer/Desktop/AWS Full Pipeline/mlartifacts/models/m-1791254cf6964eb99facb07718a1bbf9/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.skops
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+    serialization_format: skops
+    skops_trusted_types:
+    - lightgbm.basic.Booster
+    - lightgbm.sklearn.LGBMClassifier
+    - lightgbm.sklearn.LGBMRegressor
+    - collections.OrderedDict
+  python_function:
+    data: model.skops
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.10.0
+mlflow_version: 3.14.0
+model_id: m-1791254cf6964eb99facb07718a1bbf9
+model_size_bytes: 1013718
+model_uuid: m-1791254cf6964eb99facb07718a1bbf9
+prompts: null
+utc_time_created: '2026-07-03 06:24:02.211264'

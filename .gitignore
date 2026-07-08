@@ -1,0 +1,45 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment Variables
+.env
+
+# AWS
+.aws/
+credentials
+config
+
+# ML Models
+*.pkl
+*.joblib
+
+model.tar.gz
+
+# MLflow
+mlruns/
+*.db
+mlflow.db
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
