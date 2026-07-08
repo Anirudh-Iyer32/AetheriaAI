@@ -24,7 +24,7 @@ config
 *.joblib
 
 model.tar.gz
-
+*.tar.gz
 # MLflow
 mlruns/
 *.db
